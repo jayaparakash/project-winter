@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Bootstarp icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar Section -->
+    <div class=" container-fluid">
+      <div class=" m-2">
+        <nav class="na1 navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand d-flex align-items-center" style="margin-right: 0px;">
+              <img
+                src="../Images/icon/India.jpg"
+                height="20"
+                width="30"
+                alt="logo"
+              />
+              <div class="dropdown" style="width: 55px;">
+                <button
+                  class="btn btn-dark dropdown-toggle dropdown-toggle-split "
+                  style="width: 50px;"
+                  type="button"
+                  id="dropdownMicroProcecsor"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  IND
+                </button>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMicroProcecsor"
+                >
+                  <li><a class="dropdown-item" href="#">AME</a></li>
+                  <li><a class="dropdown-item" href="#">JAP</a></li>
+                  <li><a class="dropdown-item" href="#">RUSS</a></li>
+                </ul>
+              </div>
+              <a
+                href="#"
+                class="fst-italic d-inline text-light text-decoration-none"
+                >+918739889493</a
+              >
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto me-0">
+                <a href="#" class="nav-item nav-link me-3 text-light"
+                  >MY ACCOUNT</a
+                >
+
+                <a href="#" class="nav-item nav-link me-3 text-light"
+                  >WISH LIST</a
+                >
+                <a href="#" class="nav-item nav-link me-3 text-light"
+                  >SHOPPING</a
+                >
+                <a href="#" class="nav-item nav-link me-3 text-light">CART</a>
+                <a href="#" class="nav-item nav-link me-3 text-light"
+                  >CHECKOUT</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Nav2 Bar Section -->
+    <div class="container-fluid">
+      <div class="m-2">
+        <nav class="navbar navbar-expand-xl navbar-light">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <img 
+                src="../Images/logo/AIT-white.jpg"
+                height="50"
+                width=""
+                alt="logo"
+              />
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapses"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="navcol collapse navbar-collapse ms-5 me-0"
+              id="navbarCollapses"
+            >
+              <div class="navbar-nav ms-5 me-0">
+                <a href="#" class="nav-item nav-link me-0">HOME</a>
+                <a href="#" class="nav-item nav-link me-0">Catogori</a>
+                <div
+                  class="position-relative d-inline-block bg-none rounded-2 text-secondary"
+                >
+                  <a href="#" class="nav-item nav-link me-0">Latest</a>
+                  <a
+                    href="#"
+                    class="position-absolute d-none d-xl-block   top-0 start-100 lh-1 translate-middle rounded-pill h-51 bg-danger nav-item nav-link text-light"
+                    ><small>HOT</small></a
+                  >
+                </div>
+
+                <a href="#" class="nav-item nav-link ms-xl-3">Blog</a>
+                <a href="#" class="nav-item nav-link me-0">pages</a>
+                <a href="#" class="nav-item nav-link me-0">contact</a>
+
+                <div
+                  class="input-group border rounded-pill container-fluid ms-lg-5 w-50 me-lg-5"
+                >
+                  <input
+                    class="form-control border-0 border rounded-pill me-lg-0"
+                    type="search"
+                    value="search products"
+                    id="example-search-input"
+                  />
+                  <span class="input-group-append">
+                    <button
+                      class="btn btn-outline-secondary border-0 border rounded-pill ms-n5"
+                      type="button"
+                    >
+                      <i class="bi bi-search"></i>
+                    </button>
+                  </span>
+                </div>
+
+                <div
+                  class="position-relative d-inline-block d-none d-xl-block px-2 py-0 me-lg-1 border rounded-circle"
+                >
+                  <a href="#" class="nav-item nav-link me-0"
+                    ><i class="bi bi-suit-heart-fill"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="position-absolute d-none d-xl-block top-0 me-0 lh-1 start-100 translate-middle rounded-pill h-51 bg-info nav-item nav-link text-light"
+                    ><small>02</small></a
+                  >
+                </div>
+
+                <div
+                  class="position-relative d-inline-block px-2 py-0 me-lg-3 ms-lg-4 border d-none d-xl-block rounded-circle"
+                >
+                  <a href="#" class="nav-item nav-link me-0"
+                    ><i class="bi bi-cart3"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="position-absolute d-none d-xl-block top-0 me-0 lh-1 start-100 translate-middle rounded-pill h-51 bg-info nav-item nav-link text-light"
+                    ><small>02</small></a
+                  >
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn btn-primary mx-2 border rounded-pill"
+              >
+                Sign In
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div
+      class="Banner container-fluid d-flex col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+    >
+      <div class="col-2">
+        <img src="../Images/hero/hero_man.png"  style="padding: 0px 0;"/>
+      </div>
+
+      <div class="col-2">
+        <p>60% Discount</p>
+        <h class="" style="font-size:71px;">
+          Winter<br />
+          Collection
+        </h>
+        <p>Best Cloth Collection By 2020!</p>
+        <a href="" class="btns">Shop Now &#8594;</a>
+      </div>
+    </div>
+
+    <!-- Shop by caregory -->
+
+    <div class="shop row w-100 mt-5 d-flex">
+      <h1 class="title">Shop by caregory</h1>
+
+      <div class="cat1 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-sm-3">
+        <div class="text-sm-end text-md-end text-lg-end p-4" >
+          <h class="mt-4 fw-bold">Owmen's</h><br />
+          <a href="#" class="btn rounded-pill bg-warning fw-3" type="btn"
+            >Best New Deals</a
+          ><br />
+          <h class="text-info fw-3">New Collection</h>
+        </div>
+      </div>
+
+      <div class="cat2 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-sm-3">
+        <div class=" text-sm-end text-md-end text-lg-end p-4" id="shopt">
+          <h class="text-info fw-3">Discount</h><br />
+          <h class="mt-4 fw-bolder">Winter Cloth</h><br />
+          <p class="fw-2"
+            >New collection </p
+          >
+        </div>
+      </div>
+      <div class="cat3 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-sm-3">
+        <div class="text-sm-end text-md-end text-lg-end p-4" id="shopt" >
+          <h class="mt-4 fw-bold">Men's Cloth</h><br />
+          <a href="#" class="btn rounded-pill bg-warning fw-3" type="btn"
+            >Best New Deals</a
+          ><br />
+          <h class="text-info fw-3">New Collection</h>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Products -->
+
+    <div class="lp container-fluid">
+      <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <h2 class="fst-italic d-inline ms-4 fw-bolder">Latest Products</h2>
+
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapsed"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapsed">
+              <div class="navbar-nav ms-auto me-5">
+                <a href="#" class="nav-item nav-link me-3">All</a>
+                <a href="#" class="nav-item nav-link me-3">New</a>
+                <a href="#" class="nav-item nav-link me-3">Features</a>
+                <a href="#" class="nav-item nav-link me-3">Offer</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <hr class="container" />
+
+    <div class="lpimg container">
+      <div class="row imglp">
+        <div class="lpimg1 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+          <div class="ratting">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star-half"></i>
+            <p>green dress with details</p>
+            <h>$40.00 <del>$60.00</del></h>
+          </div>
+        </div>
+
+        <div class="lpimg2 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+          <div class="ratting">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star-half"></i>
+            <p>green dress with details</p>
+            <h>$40.00 <del>$60.00</del></h>
+          </div>
+        </div>
+        <div class="lpimg3 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+          <div class="ratting">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star-half"></i>
+            <p>green dress with details</p>
+            <h>$40.00<del>$60.00</del></h>
+          </div>
+        </div>
+
+        <div class="lpimg4 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+          <div class="ratting">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star-half"></i>
+            <p>green dress with details</p>
+            <h>$40.00 <del>$60.00</del></h>
+          </div>
+        </div>
+
+        <div class="lpimg5 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+          <div class="ratting">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star-half"></i>
+            <p>green dress with details</p>
+            <h>$40.00 <del>$60.00</del></h>
+          </div>
+        </div>
+
+        <div class="lpimg6 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+          <div class="ratting">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star-half"></i>
+            <p>green dress with details</p>
+            <h>$40.00 <del>$60.00</del></h>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="LatBan container-fluid">
+      <div class="Men"></div>
+
+      <div class="ltext">
+        <h2 class="texthe fs-50 fw-bolder">Find The Best Product</h2>
+        <h2 class="texthe fs-50 fw-bolder">from Our Shop</h2>
+
+        <p class="textp fw-bolder,text-'dark'">
+          Designers Who are interesten Creating State often.
+        </p>
+
+        <button class="texbt rounded-pill bg-dark h-3 text-light">
+          Shop Now
+        </button>
+      </div>
+
+      <div class="Shirts"></div>
+    </div>
+
+    <!-- Blog -->
+
+    <div class="WCBlog container">
+      <div class="blo1 col-sd-12">
+        <div class="Text1">
+          <h2 class="fwt-bolder">Best Collection</h2>
+          <h2 class="fwt-bolder">of This Month</h2>
+          <p>Designers who are interesten crea</p>
+          <button class="rounded-pill fs-14 bg-info text-ligth',">
+            shop Now
+          </button>
+        </div>
+
+        <div class="blo1Img"></div>
+      </div>
+
+      <div class="blo2"></div>
+
+      <div class="blo3">
+        <div class="Textblo3">
+          <div class="blo3Text1">
+            <h6>MenZ Winter Jacket</h6>
+          </div>
+          <div class="blo3Text2">
+            <h6>MenZ Winter Jacket</h6>
+          </div>
+          <div class="blo3Text3">
+            <h6>MenZ Winter Jacket</h6>
+          </div>
+        </div>
+
+        <div>
+          <div class="blo3IMG1"></div>
+          <div class="blo3IMG2"></div>
+          <div class="blo3IMG3"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="getbox container-fluid bg-secondary" style="width: 95%; height: 265px; text-align: center; margin-top: 100px;">
+      <div class="getr row bg-secondary ">
+          <div class="col-2" style="margin-top: 70px;">
+            <h1 className="hline">Get Our</br>
+            Latest Offers News</h1>
+            <p className="pline">Subscribe news latter</p>
+          </div>
+
+          <div class="email col-2 " style="margin-top: 140px;">
+
+            <div class ="em border border-secondary h-3 rounded-pill bg-light" style="height: 38px; width: 263px;">
+            <input type="text" class="aria-labelledby border border-0 rounded-pill " placeholder="Your email here">
+            
+              <button class="btn d-inline-block border border-0 rounded-pill bg-info text-light" type="button">Button</button>
+            </div>
+          </div>
+              
+      </div>
+  </div>
+
+
+  <div class="testimonial container">
+  <div class="small-container">
+    <div class="row">
+        <div class="col-3  col-sm-12">
+         <h1><i class="bi bi-truck"></i></h1> <br>
+          <h class="fw-bolder ft-">Free Shipping Method</h>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                industry's standard dummy text.</p>
+           
+        </div>
+        <div class="col-3 col-sm-12">
+         <h1><i class="bi bi-file-earmark-lock2-fill"></i></h1> <br>
+          <h class="fw-bolder">Secure payment System</h>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                industry's standard dummy text.</p>
+           
+        </div>
+        <div class="col-3 col-sm-12">
+        <h1><i class="bi bi-arrow-repeat"></i></h1><br>
+          <h class="fw-bolder">Secure payment System</h>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                industry's standard dummy text.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- gallery -->
+
+ <div class="gallery container-fluid" style="margin-top: 150px;">
+  <div class="row justify-content-around">
+      <div class="g1 col-sm-2">
+        <div class="card card-dark bg-dark">             
+                 <img src="../Images/gallery/gallery1.jpg" alt="">
+              </div>          
+            </div>
+
+      <div class="g2 col-sm-2">
+          <div class="card card-dark bg-dark">              
+                <img src="../Images/gallery/gallery2.jpg" alt="">
+              </div>          
+        </div>
+
+      <div class="g3 col-sm-2">
+          <div class="card card-dark bg-dark">              
+                <img src="../Images/gallery/gallery3.jpg" alt="">
+              </div>          
+        </div>
+
+      <div class="g4 col-sm-2">
+          <div class="card card-dark bg-dark">             
+                <img src="../Images/gallery/gallery4.jpg" alt="">
+              </div>          
+      </div>
+      
+      <div class="g5 col-sm-2">
+          <div class="card card-dark bg-dark">              
+                <img src="../Images/gallery/gallery5.jpg" alt="">
+              </div>          
+      </div>
+  </div>
+</div>
+
+
+
+    <!-- Footer Section  -->
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+     
+
+      <section class="" style="margin-top: 150px;">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <img src="../Images/logo/AIT-white.jpg" height="60px" width="170px" alt="">
+              <p>
+              63, 1st Floor, 16th Main, 8th Cross<br>
+              Marthali,Bengaluru,<br>Karnataka 560029</p>
+            </div>
+
+            <div class=" col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 text-dark" style="margin-left: 5px;">Quick Links</h6>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none text-secondary">About</a>
+              </p>
+              <p>
+                <a href="#!" class=" text-reset text-decoration-none text-secondary">Offers & Discounts </a>
+              </p>
+              <p>
+                <a href="#!" class=" text-reset text-decoration-none text-secondary">Get Coupon </a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none text-secondary">Contact Us</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 text-dark">New Products</h6>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none text-secondary">Woman Cloth</a>
+              </p>
+              <p>
+                <a href="#!" class=" text-reset text-decoration-none text-secondary ">Fanshion Accessserios</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-secondary ">Man Accessserios</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none text-secondary">Rubber made Toys  </a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 text-dark">Support</h6>
+              <p>
+                 Frequntly Asked questions
+              </p>
+              <p>
+                Terms & Conditions 
+                
+              </p>
+              <p>
+               Privacy Policy
+              </p>
+              <p>
+                Report a Payment issuse 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+       <!-- Section: Social media -->
+       <section
+       class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+     >
+       <div class="me-5 d-none d-lg-block">
+         <span class="text-dark">2023 Copyright © All rigths reserved | This template is made with  <i class="bi bi-heart  text-primary " ></i> by<h class="text-primary"> mr jayaprakash </h></span>
+       </div>
+
+       <div>
+         <a href="" class="me-4 link-secondary text-decoration-none">
+          <i class="bi bi-twitter "></i>
+         </a>
+         <a href="" class="me-4 link-secondary text-decoration-none">
+          <i class="bi bi-facebook  "></i>
+         </a>
+         <a href="" class="me-4 link-secondary text-decoration-none">
+          <i class="bi bi-instagram  "></i>
+          </a>
+         <a href="" class="me-4 link-secondary text-decoration-none">
+          <i class="ssbi bi-globe  "></i>
+         </a>
+         
+       </div>
+     </section>
+    </footer>
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
