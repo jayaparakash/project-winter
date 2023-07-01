@@ -83,7 +83,7 @@
   .cat1{
     height: 200px;
     width: 330px;
-    background-image: url(../Images/categori/cat1.jpg);
+    background-image: url(./Images/categori/cat1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -98,7 +98,7 @@
   .cat2{
     height: 200px;
     width: 330px;
-    background-image: url(../Images/categori/cat2.jpg);
+    background-image: url(./Images/categori/cat2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -111,7 +111,7 @@
   .cat3{
     height: 200px;
     width: 330px;
-    background-image: url(../Images/categori/cat3.jpg);
+    background-image: url(./Images/categori/cat3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -166,7 +166,7 @@
 .lpimg1{
     height: 500px;
     width: 330px;
-background-image: url( "../Images/categori/product1.png");
+background-image: url( "./Images/categori/product1.png");
 background-repeat: no-repeat;
 background-size: contain;
 box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -185,7 +185,7 @@ transition: transform 0.5s;
 .lpimg2{
     height: 500px;
     width: 330px;
-    background-image: url( "../Images/categori/product2.png");
+    background-image: url( "./Images/categori/product2.png");
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -206,7 +206,7 @@ transition: transform 0.5s;
 .lpimg3{
     height: 500px;
     width: 330px;
-    background-image: url( "../Images/categori/product3.png");
+    background-image: url( "./Images/categori/product3.png");
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -227,7 +227,7 @@ transition: transform 0.5s;
 .lpimg4{
     height: 500px;
     width: 330px;
-    background-image: url( "../Images/categori/product4.png");
+    background-image: url( "./Images/categori/product4.png");
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -248,7 +248,7 @@ transition: transform 0.5s;
 .lpimg5{
     height: 500px;
     width: 330px;
-    background-image: url( "../Images/categori/product5.png");
+    background-image: url( "./Images/categori/product5.png");
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -270,7 +270,7 @@ transition: transform 0.5s;
 .lpimg6{
     height: 500px;
     width: 330px;
-    background-image: url( "../Images/categori/product6.png");
+    background-image: url( "./Images/categori/product6.png");
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.1);
@@ -328,7 +328,7 @@ del{
 }
 
 .Men{
-    background-image: url(../Images/categori/card-man.png);
+    background-image: url(./Images/categori/card-man.png);
     height: 687px;
     width: 225px;
     margin-bottom: 90px;
@@ -340,7 +340,7 @@ del{
 
 
 .Shirts{
-    background-image: url(../Images/categori/card-shape.png);
+    background-image: url(./Images/categori/card-shape.png);
     background-repeat: no-repeat;
     width: 170px;
     height: 150px;
@@ -387,7 +387,7 @@ del{
 }
 
 .blo1Img{
-    background-image: url(../Images/collection/collection1.png);
+    background-image: url(./Images/collection/collection1.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 200px;
@@ -396,7 +396,7 @@ del{
 
 .blo2{
     width: 240px;
-    background-image: url(../Images/collection/collection2.png);
+    background-image: url(./Images/collection/collection2.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 504px;
@@ -440,7 +440,7 @@ del{
 .blo3IMG1{
     height: 150px;
     width: 150px;
-    background-image: url(../Images//collection/collection3.png);
+    background-image: url(./Images//collection/collection3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -448,7 +448,7 @@ del{
 .blo3IMG2{
     height: 150px;
     width: 150px;
-    background-image: url(../Images//collection/collection4.png);
+    background-image: url(./Images//collection/collection4.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -456,7 +456,7 @@ del{
 .blo3IMG3{
     height: 150px;
     width: 150px;
-    background-image: url(../Images//collection/collection5.png);
+    background-image: url(./Images//collection/collection5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -478,7 +478,7 @@ del{
 .blo2{
     width: 300px;
     height: 500px;
-    background-image: url(../Images/collection/collection2.png);
+    background-image: url(./Images/collection/collection2.png);
     background-repeat: no-repeat;
     background-size: contain;
    margin-left: 50px;
@@ -510,7 +510,7 @@ del{
     .blo2{
         width: 300px;
         height: 500px;
-        background-image: url(../Images/collection/collection2.png);
+        background-image: url(./Images/collection/collection2.png);
         background-repeat: no-repeat;
         background-size: contain;
        margin-left: 45px;
