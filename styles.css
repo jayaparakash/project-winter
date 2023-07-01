@@ -440,7 +440,7 @@ del{
 .blo3IMG1{
     height: 150px;
     width: 150px;
-    background-image: url(./Images//collection/collection3.png);
+    background-image: url(./Images/collection/collection3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -448,7 +448,7 @@ del{
 .blo3IMG2{
     height: 150px;
     width: 150px;
-    background-image: url(./Images//collection/collection4.png);
+    background-image: url(./Images/collection/collection4.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -456,7 +456,7 @@ del{
 .blo3IMG3{
     height: 150px;
     width: 150px;
-    background-image: url(./Images//collection/collection5.png);
+    background-image: url(./Images/collection/collection5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
