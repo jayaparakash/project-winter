@@ -36,9 +36,6 @@
     
 }
 
-  .navcol{
-    
-  }
 
   .col-2 {
     flex-basis: 50%;
@@ -59,7 +56,8 @@
   .col-2 h {
     font-size: 50px;
     line-height: 60px;
-    margin: 25px 0;font-size: 80px;
+    margin: 25px 0;
+    font-size: 80px;
     line-height: 73px;
     margin: 25px 0;
     font-family: auto;
@@ -129,7 +127,7 @@
 
   .title{
     text-align: center;
-    margin: 50px 30px;
+    margin: 50px 10px;
     line-height: 60px;
     color: #555;
 }
@@ -154,7 +152,6 @@
     }
     .cat3 >div{
         margin-left: 120px;
-    
     }
 }
 
@@ -347,7 +344,7 @@ del{
     margin-top: 300px;
 }
 
-@media screen and (max-width : 780px) {
+@media screen and (max-width:780px) {
    .Men{
     width: 700px;
    }
